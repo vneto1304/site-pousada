@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pousada Pé na Areia - Ilha do Superagui</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-m9vxnBnxnsWrqsNZVdoOMss4bxj7Pdyqj+4b8FF6L8SoHtbYAxW6t6Za8k+KPSr95HdCohyj2Wxvcoj0FWJZtA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        /* Estilos CSS aqui */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #343a40;
+            color: #ffffff;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin-top: 20px;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #ffcc00;
+        }
+
+        section {
+            padding: 40px 20px;
+            background-color: #ffffff;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            color: #343a40;
+            font-size: 28px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        section p {
+            font-size: 18px;
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+
+        section ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        section ul li {
+            margin-bottom: 10px;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-gap: 20px;
+        }
+
+        .gallery img {
+            width: 100%;
+            max-width: 400px; /* Definir um tamanho máximo para evitar que a imagem fique muito grande */
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: #343a40;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 14px;
+        }
+
+        .fas,
+        .fab {
+            margin-right: 5px;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 28px;
+            }
+
+            nav ul li {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Pousada Pé na Areia - Ilha do Superagui</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#quartos">Quartos</a></li>
+                <li><a href="#pontos-turisticos">Pontos Turísticos</a></li>
+                <li><a href="#praias">Praias</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção Sobre -->
+    <section id="sobre">
+        <h2><i class="fas fa-info-circle"></i> Sobre a Pousada</h2>
+        <p>A Pousada Pé na Areia é o local perfeito para quem busca tranquilidade e contato com a natureza na deslumbrante Ilha do Superagui. Oferecemos acomodações confortáveis, com vista para o mar, e uma equipe dedicada para tornar sua estadia inesquecível.</p>
+        <p>Nosso café da manhã completo e saboroso é uma experiência imperdível para começar bem o dia.</p>
+    </section>
+
+    <!-- Seção Quartos -->
+    <section id="quartos">
+        <h2><i class="fas fa-bed"></i> Nossas Suítes</h2>
+        <p>Todos os nossos quartos são suítes, garantindo privacidade e conforto durante sua estadia. Cada suíte é cuidadosamente decorada e oferece uma vista deslumbrante para o mar, proporcionando uma experiência verdadeiramente relaxante.</p>
+    </section>
+
+    <!-- Seção Pontos Turísticos -->
+    <section id="pontos-turisticos">
+        <h2><i class="fas fa-map-marked-alt"></i> Pontos Turísticos na Ilha do Superagui</h2>
+        <p>Explore os encantos da Ilha do Superagui durante sua estadia na pousada. Alguns dos principais pontos turísticos incluem:</p>
+        <ul>
+            <li>Praia do Sol Nascente</li>
+            <li>Mirante da Lua Cheia</li>
+            <li>Trilha das Estrelas</li>
+            <li>Centro Histórico da Vila dos Pescadores</li>
+        </ul>
+    </section>
+
+    <!-- Seção Praias -->
+    <section id="praias">
+        <h2><i class="fas fa-umbrella-beach"></i> Praias</h2>
+        <div class="gallery">
+            <img src="c:\Users\user\OneDrive\Imagens\café da manha.jpg" alt="Praia 1">
+            <img src="c:\Users\user\OneDrive\Imagens\livia praia.jpg" alt="Praia 2">
+            <img src="c:\Users\user\OneDrive\Imagens\por do sol praia deserta.jpg" alt="Praia 3">
+            <img src="c:\Users\user\OneDrive\Imagens\pousada frente.jpg" alt="Praia 4">
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato">
+        <h2><i class="fas fa-phone"></i> Contato</h2>
+        <p>Para fazer sua reserva ou obter mais informações, entre em contato conosco através do número:</p>
+        <p>(41) 98514-9121</p>
+        <p>Siga-nos no Instagram: <a href="https://www.instagram.com/pousadapenaareiasuperagui/" target="_blank">@pousadapenaareiasuperagui</a></p>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Pousada Pé na Areia - Ilha do Superagui. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
